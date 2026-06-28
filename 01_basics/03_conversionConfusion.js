@@ -24,3 +24,19 @@ console.log(booleanIsLoggedIn);
 let num = 55
 let stringNumber = String(num)
 console.log(stringNumber);
+
+// operations
+console.log("1"+ 2 + 2);
+console.log(2+2+"1");
+console.log(+true);
+console.log(true+); // error
+console.log(+"");
+
+// prefix
+let x = 3;
+const y = x++;
+console.log(x,y);
+//postfix
+let a = 1;
+const b = ++a;
+console.log(a,b);
